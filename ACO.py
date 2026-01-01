@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 # CONFIG
 # ================================
 DATA_FILE = "Store Size 6 - SS6-CV10-01.xlsx"  # Excel file
-sheet_name = sheet1
+sheet_name = "Sheet1"
 st.title("🐜 ACO Employee Shift Scheduling (Detailed)")
 
 # ================================
