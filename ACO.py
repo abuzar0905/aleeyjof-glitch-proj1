@@ -20,7 +20,7 @@ st.title("🐜 ACO Employee Shift Scheduling (Detailed)")
 # ================================
 # LOAD DATASET
 # ================================
-df = pd.read_excel(DATA_FILE, sheet_name = sheet1)
+df = pd.read_excel(DATA_FILE, sheet_name = "Sheet1")
 st.success(f"Dataset loaded from {DATA_FILE}")
 
 # ================================
